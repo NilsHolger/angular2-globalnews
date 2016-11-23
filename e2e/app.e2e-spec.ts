@@ -1,10 +1,10 @@
-import { Ng2globalnewsPage } from './app.po';
+import { Angular2GlobalNewsPage } from './app.po';
 
-describe('ng2globalnews App', function() {
-  let page: Ng2globalnewsPage;
+describe('angular2-global-news App', function() {
+  let page: Angular2GlobalNewsPage;
 
   beforeEach(() => {
-    page = new Ng2globalnewsPage();
+    page = new Angular2GlobalNewsPage();
   });
 
   it('should display message saying app works', () => {

@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Ng2globalnewsPage {
+export class Angular2GlobalNewsPage {
   navigateTo() {
     return browser.get('/');
   }

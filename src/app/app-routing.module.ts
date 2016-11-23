@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ChoiceComponent } from './choice/choice.component';
+import { NewsComponent } from './news/news.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'', component: ChoiceComponent},
+  {path: 'settings', component: ChoiceComponent},
+  {path: 'news', component: NewsComponent}
+];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  providers: []
-})
-export class Ng2globalnewsRoutingModule { }
+export const routing = RouterModule.forRoot(routes);
+
